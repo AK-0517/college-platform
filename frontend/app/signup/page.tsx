@@ -35,7 +35,7 @@ export default function SignupPage() {
             <label className="text-sm text-gray-600 mb-1 block">Full Name</label>
             <input
               value={name} onChange={(e) => setName(e.target.value)}
-              placeholder="Anushka Kakade"
+              placeholder="Your Name"
               className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-blue-500"
             />
           </div>
